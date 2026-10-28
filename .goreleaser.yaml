@@ -28,6 +28,7 @@ brews:
       owner: eimarfandino
       name: homebrew-tap
       token: "{{ .Env.HOMEBREW_TAP_TOKEN }}"
+    directory: Formula
     homepage: https://github.com/eimarfandino/ckx
     description: "Switch between AWS (EKS) and Azure (AKS) Kubernetes clusters from one CLI"
     license: MIT
